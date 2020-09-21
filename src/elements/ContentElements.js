@@ -1,13 +1,13 @@
 import styled from "styled-components"
 
 export const ContentWrapper = styled.main`
-  grid-column: 4 / span 8;
-  grid-row: 3 / span 5;
-  background-color: ${props => props.theme.colors.light2};
+  border: 4px solid ${props => props.theme.colors.main3};
+  grid-column: 3 / span 10;
+  grid-row: 4 / span 5;
+  background-color: black;
   padding: ${props =>
     `${props.theme.spacings.xLarge} ${props.theme.spacings.xxLarge}`};
   box-shadow: ${props => props.theme.shadows.shadow1};
-  z-index: 10;
 
   @media ${props => props.theme.breakpoints.tablet} {
     grid-column: 2 / span 6;
