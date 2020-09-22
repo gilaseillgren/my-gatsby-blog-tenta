@@ -23,7 +23,7 @@ export const Nav = () => {
   return (
     <NavWrapper>
       <div className="navbar">
-      <Link to="/" className="toggle" onClick={toggleNav}>&#9776;</Link>  
+      <Link to="/" className="toggle" onClick={toggleNav}>:::</Link>  
       <Link to="/" className="brand">
         <img src={data.logo.publicURL} alt="My Logo" />
       </Link>

@@ -49,14 +49,15 @@ export const NavWrapper = styled.nav`
       padding: 0.5rem;
     }
     .toggle {
-      padding: 7px 12px 7px 12px;
-      width: 40px;
-      height: 40px;
-      border-radius: 25px;
-      color: white;
-      vertical-align: middle;
-      border: 1px solid white;
-      margin: 10px;
+    font-size: 20px;
+    padding: 4px 12px 7px 12px;
+    width: 40px;
+    height: 40px;
+    border-radius: 25px;
+    color: white;
+    vertical-align: middle;
+    border: 1px solid white;
+    margin: 10px;
     }
   }
 
@@ -65,7 +66,7 @@ export const NavWrapper = styled.nav`
       display: flex;
       .left,
       .right {
-        display: flex;
+        display: flex !important;
         flex: 1;
       }
       .link {
@@ -84,7 +85,7 @@ export const NavWrapper = styled.nav`
     div {
       display: none;
       @media ${props => props.theme.breakpoints.minMobile} {
-        display: flex !important;
+        display: flex;
       }
     }
   }
