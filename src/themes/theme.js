@@ -10,8 +10,10 @@ export default {
     dark1: "hsl(227,2%,12%)",
     dark2: "hsl(227,2%,26%)",
     dark3: "hsl(227,2%,64%)",
+    dark4: "#0e0e0e",
     light1: "hsl(0,0%,97%)",
     light2: "hsl(0,0%,99%)",
+    light3: "hsl(0deg 0% 43%)",
   },
   breakpoints: {
     mobile: "only screen and (max-width: 48rem)",

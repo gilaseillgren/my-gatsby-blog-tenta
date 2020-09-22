@@ -50,13 +50,14 @@ export const NavWrapper = styled.nav`
     }
     .toggle {
     font-size: 20px;
-    padding: 4px 12px 7px 12px;
+    font-weight:900;
+    padding: 3px 10px 10px 11px;
     width: 40px;
     height: 40px;
     border-radius: 25px;
     color: white;
     vertical-align: middle;
-    border: 1px solid white;
+    border: 2px solid white;
     margin: 10px;
     }
   }
