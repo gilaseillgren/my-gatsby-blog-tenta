@@ -8,6 +8,7 @@ export const NavWrapper = styled.nav`
   align-items: center;
   background-color: none;
   z-index: 1;
+  padding: 10px 20px;
 
   @media ${props => props.theme.breakpoints.mobile} {
     grid-column: 1 / span 8;
@@ -18,16 +19,16 @@ export const NavWrapper = styled.nav`
       }
     }
     .brand {
-      float: right;
-      text-align: right;
+        float: right;
+        text-align: right;
+      }
     }
-  }
-
 
   .navbar {
     .toggle,
     .brand {
       display: inline-block;
+      text-decoration: none;
     }
     .link {
       font-weight: 700;
@@ -48,7 +49,7 @@ export const NavWrapper = styled.nav`
       padding: 0.5rem;
     }
     .toggle {
-      padding: 9px 11px;
+      padding: 7px 12px 7px 12px;
       width: 40px;
       height: 40px;
       border-radius: 25px;
@@ -59,7 +60,7 @@ export const NavWrapper = styled.nav`
     }
   }
 
-  @media (min-width: 48em) {
+  @media ${props => props.theme.breakpoints.minMobile} {
     .navbar {
       display: flex;
       .left,
@@ -82,8 +83,8 @@ export const NavWrapper = styled.nav`
   .navbar {
     div {
       display: none;
-      @media (min-width: 48em) {
-        display: flex;
+      @media ${props => props.theme.breakpoints.minMobile} {
+        display: flex !important;
       }
     }
   }

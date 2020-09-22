@@ -15,6 +15,7 @@ export default {
   },
   breakpoints: {
     mobile: "only screen and (max-width: 48rem)",
+    minMobile: "only screen and (min-width: 48rem)",
     tablet: "only screen and (max-width: 65rem)",
     desktop: "only screen and (min-width: 65rem)",
   },
