@@ -9,7 +9,7 @@ import {
   Seo,
   Header,
 } from "../components"
-import { H1, P } from "../elements"
+import { H1 } from "../elements"
 
 const allPosts = ({ pageContext, data }) => {
   const { currentPage, numPages } = pageContext
