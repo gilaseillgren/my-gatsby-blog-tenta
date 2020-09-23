@@ -15,8 +15,8 @@ const allPosts = ({ pageContext, data }) => {
   const { currentPage, numPages } = pageContext
   const isFirst = currentPage === 1
   const isLast = currentPage === numPages
-  const prevPage = currentPage - 1 === 1 ? "/" : `/${currentPage - 1}`
-  const nextPage = `/${currentPage + 1}`
+  const prevPage = currentPage - 1 === 1 ? "/#blog-section" : `/${currentPage - 1}/#blog-section`
+  const nextPage = `/${currentPage + 1}/#blog-section`
 
   const posts = data.allMdx.edges
 
@@ -29,7 +29,7 @@ const allPosts = ({ pageContext, data }) => {
               LIFE BEYOND OUR PLANET
           </H1>
       </Header>
-      <Content>
+      <Content id="blog-section">
         {posts.map(post => (
           <ContentCard
             key={post.node.frontmatter.slug}
@@ -41,12 +41,13 @@ const allPosts = ({ pageContext, data }) => {
         ))}
       </Content>
 
-      <Pagination
-        isFirst={isFirst}
-        isLast={isLast}
-        prevPage={prevPage}
-        nextPage={nextPage}
-      />
+      <Pagination 
+          isFirst={isFirst}
+          isLast={isLast}
+          prevPage={prevPage}
+          nextPage={nextPage}
+        />
+
     </Container>
   )
 }
