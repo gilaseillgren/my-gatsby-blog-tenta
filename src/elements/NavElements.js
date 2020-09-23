@@ -15,7 +15,7 @@ export const NavWrapper = styled.nav`
 
     .navbar.active {
       div {
-        display: block;
+        display: list-item;
       }
     }
     .brand {

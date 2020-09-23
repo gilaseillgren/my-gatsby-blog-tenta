@@ -9,6 +9,7 @@ export const LandingWrapper = styled.section`
 
   @media ${props => props.theme.breakpoints.tablet} {
     grid-row: 4 / span 2;
+    padding: 6rem 6rem 4rem 6rem;   
 
       div:nth-child(1) {
           h2, p {
