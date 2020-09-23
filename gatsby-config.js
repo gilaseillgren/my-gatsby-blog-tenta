@@ -11,9 +11,9 @@ module.exports = {
     description: "A simple blog built with Gatsby and MDX",
     url: "https://your-site.netlify.app/",
     image:
-      "https://frontend-magic.netlify.app/static/142900cccf67f74f52182a3914449904/37155/hero-img.png",
-    twitterUsername: "@rajahasware",
-    author: "Sohail Hasware",
+      "https://eliasgillgren.se/img/profile_pic_Elias.jpg",
+    twitterUsername: "@EliasGillgren",
+    author: "Elias Gillgren",
   },
 
   plugins: [
