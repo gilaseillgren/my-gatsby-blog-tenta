@@ -12,6 +12,9 @@ export const NavWrapper = styled.nav`
   @media ${props => props.theme.breakpoints.mobile} {
     grid-column: 1 / span 8;
 
+    .navbar {
+      background-color: black;
+    }
     .navbar.active {
       div {
         display: list-item;
@@ -24,7 +27,7 @@ export const NavWrapper = styled.nav`
     }
 
   .navbar {
-    background-color: black;
+    background-color: none;
     .toggle,
     .brand {
       display: inline-block;
