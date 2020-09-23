@@ -8,7 +8,6 @@ export const NavWrapper = styled.nav`
   align-items: center;
   background-color: none;
   z-index: 1;
-  padding: 10px 20px;
 
   @media ${props => props.theme.breakpoints.mobile} {
     grid-column: 1 / span 8;
@@ -25,6 +24,7 @@ export const NavWrapper = styled.nav`
     }
 
   .navbar {
+    background-color: black;
     .toggle,
     .brand {
       display: inline-block;
@@ -47,18 +47,20 @@ export const NavWrapper = styled.nav`
       width: 10em;
       text-align: center;
       padding: 0.5rem;
+      margin: 10px;
     }
     .toggle {
     font-size: 20px;
     font-weight:900;
-    padding: 3px 10px 10px 11px;
+    padding: 6px 10px 10px 9px;
     width: 40px;
     height: 40px;
     border-radius: 25px;
     color: white;
     vertical-align: middle;
     border: 2px solid white;
-    margin: 10px;
+    background-color: rgb(0 0 255 / 0%);
+    margin: 20px;
     }
   }
 

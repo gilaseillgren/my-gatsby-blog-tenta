@@ -8,7 +8,6 @@ export const PostWrapper = styled.main`
   padding: ${props =>
     `${props.theme.spacings.xLarge} ${props.theme.spacings.xxLarge}`};
   box-shadow: ${props => props.theme.shadows.shadow1};
-  z-index: 10;
 
   h1,
   h2,
@@ -153,6 +152,7 @@ export const PostWrapper = styled.main`
 
   @media ${props => props.theme.breakpoints.tablet} {
     grid-column: 2 / span 6;
+    margin: 1rem 0 0 0;
   }
 
   @media ${props => props.theme.breakpoints.mobile} {
