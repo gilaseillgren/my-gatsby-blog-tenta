@@ -8,6 +8,7 @@ import {
   Pagination,
   Seo,
   Header,
+  LandingSection,
 } from "../components"
 import { H1 } from "../elements"
 
@@ -29,6 +30,7 @@ const allPosts = ({ pageContext, data }) => {
               LIFE BEYOND OUR PLANET
           </H1>
       </Header>
+      <LandingSection />
       <Content id="blog-section">
         {posts.map(post => (
           <ContentCard

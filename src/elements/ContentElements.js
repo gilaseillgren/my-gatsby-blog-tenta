@@ -2,9 +2,9 @@ import styled from "styled-components"
 
 export const ContentWrapper = styled.main`
   grid-column: 2 / span 12;
-  grid-row: 4 / span 5;
+  grid-row: 6 / span 7;
   background-color: black;
-  padding: ${props => `${props.theme.spacings.xLarge} ${props.theme.spacings.xxLarge}`};    
+  padding: ${props => `${props.theme.spacings.xxLarge}`};    
   display: grid;
   grid-template-columns: auto auto auto;
 

@@ -2,7 +2,7 @@ import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 import {
   FooterWrapper,
-  FooterSocialWrapper,
+  FooterContentWrapper,
   FooterSocialIcons,
   P,
 } from "../elements"
@@ -27,7 +27,12 @@ export const Footer = () => {
 
   return (
     <FooterWrapper>
-      <FooterSocialWrapper>
+      <FooterContentWrapper>
+        <FooterSocialIcons>
+          <P size="xSmall" color="dark3" >
+            © 2020 Aliens Co. | All rights reserved 
+          </P>
+        </FooterSocialIcons>
         <FooterSocialIcons>
           <a
             href="https://facebook.com"
@@ -58,10 +63,11 @@ export const Footer = () => {
             <img src={data.instagram.publicURL} alt="Instagram logo" />
           </a>
         </FooterSocialIcons>
+        {/*         
         <P size="xSmall" color="dark3">
           © 2020 Company. All right reserved.
-        </P>
-      </FooterSocialWrapper>
+        </P> */}
+      </FooterContentWrapper>
     </FooterWrapper>
   )
 }
