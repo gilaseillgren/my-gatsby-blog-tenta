@@ -11,7 +11,7 @@ const notFound = ({ data }) => {
       <FeatureImage fixed={featureImage} />
       <Content>
         <H1 textAlign="center" margin="0 0 1rem 0">
-          Uh-oh... What you're looking for couldn't be found
+          UWhat you're looking for couldn't be found
         </H1>
       </Content>
     </Container>

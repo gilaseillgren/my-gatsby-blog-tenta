@@ -7,9 +7,9 @@
 module.exports = {
   /* Your site config here */
   siteMetadata: {
-    title: "My MDX Blog",
-    description: "A simple blog built with Gatsby and MDX",
-    url: "https://your-site.netlify.app/",
+    title: "My INSANE Gatsby Blog",
+    description: "Nice blog built with Gatsby",
+    url: "https://zen-tesla-cf494c.netlify.app/",
     image:
       "https://eliasgillgren.se/img/profile_pic_Elias.jpg",
     twitterUsername: "@EliasGillgren",
