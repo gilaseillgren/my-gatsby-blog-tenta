@@ -2,6 +2,7 @@ import React from "react"
 import styled from "styled-components"
 import { Link } from "gatsby"
 
+/* We are styling a LINK component */
 export const ButtonWrapper = styled(props => <Link {...props} />)`
   padding: 0.4rem;
   color: ${props => props.theme.colors.light1};

@@ -21,7 +21,7 @@ h1 {
 
   @media ${props => props.theme.breakpoints.tablet} {
     grid-column: 2 / span 6;
-
+    z-index:0;
     h1 {
         letter-spacing: 5px;
         font-size: 2.5em;
