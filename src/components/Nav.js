@@ -2,6 +2,7 @@ import React from "react"
 import { useStaticQuery, Link, graphql } from "gatsby"
 import { NavWrapper } from "../elements"
 
+/** Function make nav responsive **/
 function toggleNav() {
   var x = document.getElementById("nav-list");
   if (x.style.display !== "block") {
@@ -11,6 +12,7 @@ function toggleNav() {
   }
 }
 
+/* Get logo */
 export const Nav = () => {
   const data = useStaticQuery(graphql`
     query {
