@@ -2,7 +2,7 @@
 <h1 align="center">
   Tentamen Webbapplikationer och mobil utveckling<br>
 </h1>
-<h2 align="center"><italic>Elias Gillgren</italic><h2>
+<h2 align="center">Elias Gillgren<h2>
 <br><br><br>
 <h3><strong>Inledning<strong></h3>
 Denna uppsats kommer redovisa alternativa programmeringstekniker för att utveckla dynamiska webbplatser. Utgångspunkten är React och Gatsby som kommer jämföras med andra metoder.
