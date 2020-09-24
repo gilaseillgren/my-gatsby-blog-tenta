@@ -1,6 +1,6 @@
 import styled from "styled-components"
 
-export const HeaderWrapper = styled.div`
+export const HeaderWrapper = styled.section`
 grid-column: 1 / span 14;
 height: 100%;
 grid-row: 2 / span 1;

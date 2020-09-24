@@ -1,6 +1,6 @@
 import styled from "styled-components"
 
-export const FeatureImageWrapper = styled.div`
+export const FeatureImageWrapper = styled.header`
   grid-column: 1 / span 14;
   grid-row: 1 / 4;
   overflow: hidden;
