@@ -1,5 +1,6 @@
 import styled from "styled-components"
 
+/* Create a styled section element */
 export const LandingWrapper = styled.section`    
     grid-column: 2 / span 12;
     grid-row: 4 / span 4;

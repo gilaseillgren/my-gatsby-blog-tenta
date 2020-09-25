@@ -7,6 +7,7 @@ import {
   P,
 } from "../elements"
 
+/* Get the social icons */
 export const Footer = () => {
   const data = useStaticQuery(graphql`
     query {

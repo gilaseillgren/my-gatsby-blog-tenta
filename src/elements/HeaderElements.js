@@ -1,5 +1,6 @@
 import styled from "styled-components"
 
+/* Create a styled section element */
 export const HeaderWrapper = styled.section`
 grid-column: 1 / span 14;
 height: 100%;

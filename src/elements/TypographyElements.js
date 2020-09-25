@@ -1,5 +1,6 @@
 import styled from "styled-components"
 
+/* Create a styled p element */
 export const P = styled.p`
   margin: ${props => (props.margin ? props.margin : 0)};
   font-size: ${props => {
@@ -57,6 +58,7 @@ export const P = styled.p`
   text-align: ${props => (props.textAlign ? props.textAlign : "left")};
 `
 
+/* Create a styled h1 element */
 export const H1 = styled.h1`
   font-size: 2.25rem;
   line-height: 2.5rem;
@@ -81,6 +83,7 @@ export const H1 = styled.h1`
   margin: ${props => (props.margin ? props.margin : 0)};
 `
 
+/* Create a styled h2 element */
 export const H2 = styled.h2`
   font-size: 1.5rem;
   line-height: 1.875rem;

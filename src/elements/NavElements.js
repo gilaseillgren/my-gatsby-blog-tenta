@@ -1,5 +1,6 @@
 import styled from "styled-components"
 
+/* Create a styled nav element */
 export const NavWrapper = styled.nav`
   grid-column: 1 / span 14;
   grid-row: 1 / 2;

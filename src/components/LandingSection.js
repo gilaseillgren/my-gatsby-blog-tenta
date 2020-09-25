@@ -4,7 +4,7 @@ import { useStaticQuery, graphql } from "gatsby"
 import { LandingWrapper, LandingBox, P, H2 } from "../elements"
 
 export const LandingSection = ({ fixed }) => {
-
+    /* Get the profile pic img */
     const data = useStaticQuery(graphql`
     query {
       imageSharp(fixed: { originalName: { eq: "alien-profile.png" } }) {

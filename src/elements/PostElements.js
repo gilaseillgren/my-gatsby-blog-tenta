@@ -1,5 +1,6 @@
 import styled from "styled-components"
 
+/* Create a styled main element */
 export const PostWrapper = styled.main`
   margin: 6rem 0;
   grid-column: 4 / span 8;

@@ -1,5 +1,6 @@
 import styled from "styled-components"
 
+/* Create a styled main element */
 export const ContentWrapper = styled.main`
   grid-column: 2 / span 12;
   grid-row: 6 / span 7;

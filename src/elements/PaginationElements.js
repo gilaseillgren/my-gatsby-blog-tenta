@@ -2,6 +2,7 @@ import React from "react"
 import styled from "styled-components"
 import { Link } from "gatsby"
 
+/* Create a styled section element */
 export const PaginationWrapper = styled.section`
   grid-column: 2 / span 12;
   display: flex;

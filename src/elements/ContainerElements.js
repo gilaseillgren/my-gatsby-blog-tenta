@@ -1,5 +1,6 @@
 import styled from "styled-components"
 
+/* Create a styled div element */
 export const ContainerWrapper = styled.div`
   height: 100%;
   display: grid;
