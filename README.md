@@ -3,7 +3,7 @@
   Tentamen Webbapplikationer och mobil utveckling<br>
 </h1>
 <h2 align="center">Elias Gillgren<h2>
-<br><br><br>
+<br><br>
 <h3><strong>Inledning<strong></h3>
 Denna uppsats kommer redovisa alternativa programmeringstekniker för att utveckla dynamiska webbplatser. Utgångspunkten är React och Gatsby som kommer jämföras med andra metoder.
 <br><br>
@@ -23,16 +23,13 @@ Bara för att React har flest användare betyder inte de är bäst på alla fron
 •	  Vue’s prestanda och med dess lätta 20KB ramverk som gör sajterna hiskeligt snabba.<br>
 • 	Storleken på community som Angular och React innehar. Ju fler användare desto mer hjälp kan man få såklart.<br>
 •	  Angulars objektorienterade struktur.<br>
-•	  Vue’s och React flacka inlärningskurva.<br>
-
-<br>
+•	  Vue’s och React flacka inlärningskurva.
 <br><br>
 <h3><strong>Sammanfattning<strong></h3>
 Det finns ingen programmeringsteknik som är perfekt för alla ändamål. Men att kunna bemästra flertalet tekniker underlättar valet när man ska göra en dynamisk webbplats. Gatsby är ju en fantastisk teknik på flera sätt men egentligen kanske inte bäst lämpad för dynamiska sidor. React känns ändå som en nyckel i spelet vilket fall. Kan man bemästra React finns stora förutsättningar för att göra en bra webbsajt. Och om man vill kan man krydda med diverse ramverk som Gatsby så finns den möjligheten. 
 <br><br>
 <br><br>
 <h3><strong>Källor<strong></h3>
-<br>
 
 1.	Sarah Mischinger, 
 https://www.storyblok.com/tp/3-reasons-why-you-should-consider-gatsby-js-for-your-next-project
